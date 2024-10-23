@@ -10,6 +10,6 @@ permissions:
   
 jobs:
   call_reusable_workflow:
-    uses: sarvjan/template/.github/workflows/get-dump.yml@main
+    uses: sarvjan/reusable-workflow/.github/workflows/get-dump.yml@main
     with:
       config: "source.txt"
